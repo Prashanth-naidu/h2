@@ -1,5 +1,5 @@
-create table book (
-   id INT PRIMARY KEY AUTO_INCREMENT,
-   name varchar(255),
-   imageUrl varchar(255)
+create table if not exists book(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name varchar(255),
+    imageurl varchar(255)
 );
